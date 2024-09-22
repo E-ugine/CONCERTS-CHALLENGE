@@ -1,4 +1,4 @@
-from lib.models import Band, Venue, Concert
+from models import Band, Venue, Concert
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import random
